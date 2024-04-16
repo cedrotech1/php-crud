@@ -44,6 +44,9 @@ include ("connection.php");
                             <a href="delete.php?id=<?php echo $row['id'];?>">
                             <button class='btn btn-danger'>delete</button>
                         </a>
+                        <a href="update.php?id=<?php echo $row['id'];?>">
+                            <button class='btn btn-success'>update</button>
+                        </a>
                         </td>
                         </tr>
                     <?php
